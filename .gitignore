@@ -1,0 +1,98 @@
+
+# Steam related files
+steam_api.dll
+steam_appid.txt
+Steamworks.NET.dll
+Steamworks.dll
+installscript.vdf
+testapp.exe
+*.vdf
+
+# GOG related files
+support.ico
+webcache.zip
+*.lnk
+goglog.ini
+Galaxy64.dll
+GalaxyCSharpGlue.dll
+goggame-*
+gog.ico
+EULA.txt
+unins000.*
+Galaxy.dll
+# GOG proprietary DxWrapper
+dxcfg.exe
+dxcfg.ini
+
+#Frequently appearing in many games
+gamecontrollerdb.txt
+
+# Remix user data
+artifacts_readme.txt
+*.log
+*.dxvk-cache
+NvRemixBridge.exe*.dmp
+rtx?*.conf
+# Expected user files in Morrowind (potentially could be included)
+CRC.TXT
+dxwrapper*
+ThirdPartyLicenses-*
+d3d8.dll
+
+#User data
+*.bmp
+Saves/
+*.log
+*.dmp
+
+#Remix exclusions
+# Remix DLLs and executables - not under MIT license and has to be downloaded separately
+rtx-remix/captures
+**/lss/captures
+.trex/usd/
+GFSDK_Aftermath_Lib*.x64.dll
+NRD*.dll
+NvLowLatencyVk*.dll
+nvngx_dlss*.dll
+rtxio*.dll
+tbb*.dll
+usd_ms.dll
+
+# These ones are probably okay, but leaving ignored for now
+.trex/d3d9.dll
+.trex/d3d9.pdb
+d3d9.dll
+d3d9.pdb
+NvRemixBridge.exe
+NvRemixBridge.pdb
+NvRemixLauncher32.exe
+NvRemixLauncher32.pdb
+
+bin/Final/ThirdPartyLicenses-bridge.txt
+bin/Final/ThirdPartyLicenses-dxvk.txt
+bin/Final/CRC.txt
+
+#Morrowind-specific
+MWUninstall/
+Data Files/
+Bethesda.TXT
+*.htm
+LICENSE.TXT
+metrics.TXT
+Morrowind*.exe
+ProgramFlow.txt
+readme.txt
+binkw32*
+Warnings.txt
+# Game PAKs
+*.esm
+*.bsa
+# Game FMVs
+*.bik
+# Game splash screens
+*.tga
+# Game audio
+*.mp3
+#Game fonts
+*.fnt
+*.tex
